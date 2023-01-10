@@ -1,0 +1,12 @@
+.addbook_form input{
+    width: 500px;
+    margin: 10px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid wheat;
+}
+.addbook{
+    width: 600px;
+    margin-left: 400px;
+    background-color: rgb(138, 115, 115);
+}

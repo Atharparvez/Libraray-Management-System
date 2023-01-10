@@ -1,0 +1,14 @@
+.adminNavBar{
+    display:flex;
+    background-color: rgb(240, 247, 247);
+    justify-content: space-around;
+}
+.nav2 a{
+text-decoration: none;
+color: black;
+margin: 20px;
+padding-top: 40px;
+}
+.nav2 ul{
+    padding-top: 20px;
+}

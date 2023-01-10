@@ -1,0 +1,52 @@
+.admin1{
+    background-image: url('https://images.unsplash.com/photo-1600431521340-491eca880813?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80');
+    background-size: cover;
+    height: 700px;
+}
+.adminlogin{
+    background-image: url('https://images.unsplash.com/photo-1492551557933-34265f7af79e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 200px;
+    
+}
+.email input{
+    border: 0px;
+    height: 25px;
+    width: 150px;
+    transition: .5s;
+    border-bottom: 3px solid orangered;
+    border-radius: 20px;
+    padding: 0px 5px 0px 10px ;
+    
+}
+.email input:hover{
+   width: 200px;
+   
+}
+.password input{
+    border: 0px;
+    height: 25px;
+    width: 150px;
+    transition: .5s;
+    border-bottom: 3px solid orangered;
+    border-radius: 20px;
+    padding: 0px 5px 0px 10px ;
+    margin-top: 5px; 
+}
+.password input:hover{
+   width: 200px;
+}
+.form_input button{
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px  solid orangered;
+    transition: .5s;
+}
+.form_input button:hover{
+    background-color: orangered;
+}

@@ -1,0 +1,44 @@
+.booklist{
+    width: 1350px;
+    background-color:white;
+    margin: 0px;    
+}
+.booklist1{
+    margin-top: -20px;
+   text-align: center;
+}
+.booklists{
+    display: flex;
+    margin-left: 20px;
+    border: 1px solid rgb(246, 244, 244);
+    margin: 10px;
+}
+.grp{
+    justify-items: left;
+    
+    display: inline-block;
+    /* margin-left: 20px; */
+    text-align: left;
+    margin-top: 0px;
+}
+.booklists button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(249, 246, 246);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+    border: 1px solid rgb(172, 5, 5);
+}
+.booklists button:hover{
+    background-color: rgb(97, 88, 88);
+}
+.booklists img{
+   padding: 20px 20px;
+   width: 200px;
+}
+.imgbg{
+    background-color: whitesmoke;
+}
