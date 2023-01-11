@@ -28,7 +28,7 @@ const AddBook = () => {
    
     return (
         <div className="addbook">
-            <h1>Add a Book</h1>
+            <h1>Add Book</h1>
             <div className="addbook_form">
                 <form onSubmit={Submit}>
                     <div className="title">
@@ -46,15 +46,12 @@ const AddBook = () => {
                     <div className="shortDescription">
                         <textarea className="textarea" required value={shortDescription} onChange={(a) => setSD(a.target.value)} placeholder="shortDescription" cols="30" rows="10">
                         </textarea>
-                    </div>
-                    <div className="longDescription">
-                        <textarea className="textarea" required value={longDescription} onChange={(a) => setLD(a.target.value)} placeholder="LongDescription" cols="30" rows="10">
-                        </textarea>
+                        <textarea className="textarea" required value={longDescription} onChange={(a) => setLD(a.target.value)} placeholder="LongDescription" cols="30" rows="10"></textarea>
                     </div>
                     <div className="thumbnailUrl">
-                        <input type="name" required value={thumbnailUrl} onChange={(a) => setTU(a.target.value)} placeholder="Image of the book" />
+                        <input type="name" required value={thumbnailUrl} onChange={(a) => setTU(a.target.value)} placeholder="Image Link" />
                     </div>
-                    <button>Add Book</button>
+                    <button> <b>ADD</b></button>
                 </form>
             </div>
         </div>

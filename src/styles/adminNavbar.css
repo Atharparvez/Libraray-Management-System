@@ -1,13 +1,20 @@
 .adminNavBar{
     display:flex;
-    background-color: rgb(240, 247, 247);
+    background-color: rgb(6, 84, 84);
     justify-content: space-around;
+    color: white;
+    /* position:fixed; */
 }
 .nav2 a{
 text-decoration: none;
-color: black;
+color: white;
 margin: 20px;
 padding-top: 40px;
+transition: .6s;
+}
+.nav2 a:hover{
+    text-decoration: underline;
+    color: white;
 }
 .nav2 ul{
     padding-top: 20px;
