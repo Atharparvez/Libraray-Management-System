@@ -43,9 +43,9 @@ const AdminDashborad = () => {
                         <br />
                         <br />
                         Magazines For your convenience, thousands of magazines are available now to borrow through OverDrive and Libby. This includes hot titles like The Economist and Bon Appetit. (Formerly available through RBdigital.)
-                        </h5>
-                         </div>
-            
+                    </h5>
+                </div>
+
             </div>
 
         </div>

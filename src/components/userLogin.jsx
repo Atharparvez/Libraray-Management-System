@@ -3,9 +3,9 @@ import '../styles/userLogin.css';
 const UserLogin = () => {
 
     let navigate = useNavigate()
-    let login = (b) => {
-        b.preventdefalut();
-        navigate('/user/')
+    let login=(a)=>{
+        a.preventDefault()
+        navigate('/user')
     }
     return (
         <div className="User1">

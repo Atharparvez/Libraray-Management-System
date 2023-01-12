@@ -15,9 +15,7 @@ const LandingPage = () => {
                     <button id="AL"><Link to='/admin-login'><b>Admin Login</b></Link></button>
                     <button id="UL"><Link to='/user-login'><b>User Login</b></Link></button>
                 </div>
-
             </div>
-
         </div>
     )
 }

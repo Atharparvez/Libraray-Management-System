@@ -1,13 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import BookList from "../bookList";
-import ReadBook from "../readBook";
+import ReadBook from "./readBook";
+import BookList from "./bookList";
 import UserDashboard from "./UserDashboard";
 import UserNavbar from "./userNavbar";
+
 
 const UserPortal = () => {
     return (
         <div className="userportal">
-            <UserNavbar />
+          <UserNavbar/>
             <Routes>
                 <Route path="/" element={<UserDashboard/>}/>
                 <Route path="/book-list" element={<BookList/>}/>

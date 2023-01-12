@@ -4,7 +4,7 @@ import LandingPage from './components/landingpage';
 import AdminLogin from './components/adminLogin';
 import UserLogin from './components/userLogin';
 import AdminPortal from './components/adminPortal';
-import UserPortal from './components/User/userPortal';
+import UserPortal from './components/userPortal';
 function App() {
 
   return (

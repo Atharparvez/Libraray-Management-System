@@ -8,7 +8,7 @@ const AdminNavBar = () => {
             </div>
             <div className="nav2">
                 <ul>
-                <Link to='/admin/'>Dashboard</Link>
+                    <Link to='/admin/'>Dashboard</Link>
                     <Link to='/admin/add-book'>Add Books</Link>
                     <Link to='/admin/add-user'>Add User</Link>
                     <Link to='/admin/book-list'>Book List</Link>

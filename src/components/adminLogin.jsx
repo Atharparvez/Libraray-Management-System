@@ -10,12 +10,13 @@ const AdminLogin = () => {
         a.preventDefault();
         let data = { email, password }// data from input
         //admin validation
-        if (email == "athar@gmail.com" && password == 12345) {
-            navigate('/admin')
-        }
-        else {
-            alert('Invalid credentials')
-        }
+        navigate('/admin')
+        // if (email == "athar@gmail.com" && password == 12345) {
+        //     navigate('/admin')
+        // }
+        // else {
+        //     alert('Invalid credentials')
+        // }
     }
     return (
         <div className="admin1">
@@ -27,10 +28,10 @@ const AdminLogin = () => {
                 <div className="form_input">
                     <form onSubmit={login}>
                         <div className="email">
-                            <input type="Email" required value={email} onChange={(a) => setEmail(a.target.value)} placeholder="Enter Email" />
+                            <input type="Email"  value={email} onChange={(a) => setEmail(a.target.value)} placeholder="Enter Email" />
                         </div>
                         <div className="password">
-                            <input type="password" required value={password} onChange={(b) => setPassword(b.target.value)} placeholder="Password" />
+                            <input type="password" value={password} onChange={(b) => setPassword(b.target.value)} placeholder="Password" />
                         </div>
                         <button><b>Login</b></button>
                     </form>
