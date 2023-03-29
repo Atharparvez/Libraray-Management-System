@@ -26,8 +26,7 @@ const BookList = () => {
     let read = (id) => {
         if (location.pathname == '/admin/book-list') {
             Navigate(`/admin/book-list/${id}`)
-        }
-        else {
+        } else {
 
             Navigate(`/user/book-list/${id}`)
         }
@@ -64,7 +63,9 @@ const BookList = () => {
                                 </div>
                                 <div className="btn">
                                     <button onClick={() => remove(data.id, data.title)}> <b>Not Intrested</b> </button>
-                                    {location.pathname = '/admin/book-list' && <button onClick={() => read(data.id)} >Read More</button>}
+                                    {location.pathname == '/admin/book-list' && <button onClick={() => read(data.id)} >Read More</button>}
+                                    {location.pathname == '/user/book-list' && <button onClick={() => read(data.id)} >Read More</button>}
+
                                 </div>
                             </div>
                         </div>
@@ -75,5 +76,4 @@ const BookList = () => {
 
         </div>);
 }
-
 export default BookList;

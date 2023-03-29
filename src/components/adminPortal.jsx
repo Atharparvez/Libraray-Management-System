@@ -9,15 +9,15 @@ import AddUser from "./addUser";
 
 const AdminPortal = () => {
     return (<div className="adminportal">
-       <AdminNavBar/>
-       <Routes>
-        <Route path='/'element={<AdminDashborad/>}/>
-        <Route path='/book-list' element={<BookList/>} />
-        <Route path='/user-list' element={<UserList/>}/>
-        <Route path="/book-list/:id" element={<ReadBook/>}/>
-        <Route path="add-book" element={<AddBook/>}/>
-        <Route path="/add-user" element={<AddUser/>} />
-       </Routes>
+        <AdminNavBar />
+        <Routes>
+            <Route path='/' element={<AdminDashborad />} />
+            <Route path='/book-list' element={<BookList />} />
+            <Route path='/user-list' element={<UserList />} />
+            <Route path="/book-list/:id" element={<ReadBook />} />
+            <Route path="/add-book" element={<AddBook />} />
+            <Route path="/add-user" element={<AddUser />} />
+        </Routes>
     </div>);
 }
 

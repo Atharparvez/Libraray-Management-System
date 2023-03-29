@@ -1,3 +1,20 @@
 .userNavbar{
-    display: flex;
+    display: flex; 
+     justify-content: space-around;
+    background-color:  rgb(6, 84, 84);
+    color: white;
+    position: sticky;
+    top: 1px;
+    /* width: 200px;
+    height: 100vh;
+    position: fixed; */
+
+}
+.userNav2 ul {
+    padding-top: 20px;
+}
+.userNav2 a{
+    margin:25px;
+    text-decoration: none;
+    color: white;
 }

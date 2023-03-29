@@ -14,7 +14,7 @@ const AddUser = () => {
         let addUser = { name, age, email, phoneNumber }
         fetch('http://localhost:500/users', {
             method: 'POST',
-            headers:{"Content-Type":"application/json"},
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify(addUser)
         })
         alert(`User Added`)
@@ -28,19 +28,19 @@ const AddUser = () => {
             <div className="form_adduser">
                 <form onSubmit={Submit}>
                     <div className="classname">
-                        <input type="text" value={name} onChange={(a)=>setName(a.target.value)} placeholder="Name" />
+                        <input type="text" required value={name} onChange={(a) => setName(a.target.value)} placeholder="Name" />
                     </div>
                     <div className="classname">
-                        <input type="number" min='1'  value={age} onChange={(a)=>setAge(a.target.value)}placeholder="Age" />
+                        <input type="number" min='1' value={age} onChange={(a) => setAge(a.target.value)} placeholder="Age" />
                     </div>
                     <div className="classname">
-                        <input type="email" value={email} onChange={(a)=>setEmail(a.target.value)} placeholder="Email" />
+                        <input type="email" value={email} onChange={(a) => setEmail(a.target.value)} placeholder="Email" />
                     </div>
                     <div className="classname">
-                        <input type="tel"value={phoneNumber} onChange={(a)=>setPhoneNumber(a.target.value)} placeholder="Phone Number" />
+                        <input type="tel" value={phoneNumber} onChange={(a) => setPhoneNumber(a.target.value)} placeholder="Phone Number" />
                     </div>
                     <button>Submit</button>
-                    
+
                 </form>
             </div>
         </div>);

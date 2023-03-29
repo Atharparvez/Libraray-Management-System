@@ -23,21 +23,21 @@ const AdminLogin = () => {
             <div className="adminlogin">
                 <div className="form container card">
                     <div className="Head">
-                    <h1 style={{ 'color': 'white' }} >Login as Admin</h1>
+                        <h1 style={{ 'color': 'white' }} >Login as Admin</h1>
                     </div>
-                <div className="form_input">
-                    <form onSubmit={login}>
-                        <div className="email">
-                            <input type="Email"  value={email} onChange={(a) => setEmail(a.target.value)} placeholder="Enter Email" />
-                        </div>
-                        <div className="password">
-                            <input type="password" value={password} onChange={(b) => setPassword(b.target.value)} placeholder="Password" />
-                        </div>
-                        <button><b>Login</b></button>
-                    </form>
+                    <div className="form_input">
+                        <form onSubmit={login}>
+                            <div className="email">
+                                <input type="Email" value={email} onChange={(a) => setEmail(a.target.value)} placeholder="Enter Email" />
+                            </div>
+                            <div className="password">
+                                <input type="password" value={password} onChange={(b) => setPassword(b.target.value)} placeholder="Password" />
+                            </div>
+                            <button><b>Login</b></button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
         </div >
     )
 }

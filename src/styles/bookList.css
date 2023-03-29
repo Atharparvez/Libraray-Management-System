@@ -1,27 +1,31 @@
-.booklist{
+.booklist {
     width: 1350px;
-    background-color:white;
-    margin: 0px;    
+    background-color: white;
+    margin: 0px;
 }
-.booklist1{
+
+.booklist1 {
     margin-top: -20px;
-   text-align: center;
+    text-align: center;
 }
-.booklists{
+
+.booklists {
     display: flex;
     margin-left: 20px;
     border: 1px solid rgb(246, 244, 244);
     margin: 10px;
 }
-.grp{
+
+.grp {
     justify-items: left;
-    
+
     display: inline-block;
     /* margin-left: 20px; */
     text-align: left;
     margin-top: 0px;
 }
-.booklists button{
+
+.booklists button {
     height: 30px;
     width: 100px;
     background-color: rgb(249, 246, 246);
@@ -32,13 +36,16 @@
     transition: .2s;
     border: 1px solid rgb(172, 5, 5);
 }
-.booklists button:hover{
+
+.booklists button:hover {
     background-color: rgb(97, 88, 88);
 }
-.booklists img{
-   padding: 20px 20px;
-   width: 200px;
+
+.booklists img {
+    padding: 20px 20px;
+    width: 200px;
 }
-.imgbg{
+
+.imgbg {
     background-color: whitesmoke;
 }

@@ -3,7 +3,8 @@
     background-color: rgb(6, 84, 84);
     justify-content: space-around;
     color: white;
-    /* position:fixed; */
+    position: sticky;
+    top: 0px;
 }
 .nav2 a{
 text-decoration: none;
@@ -15,6 +16,7 @@ transition: .6s;
 .nav2 a:hover{
     text-decoration: underline;
     color: white;
+    transform: scale(1);
 }
 .nav2 ul{
     padding-top: 20px;
